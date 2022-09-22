@@ -14,7 +14,7 @@
         android:theme="@style/Theme.MyPassword"
         tools:targetApi="31">
         <activity
-            android:name=".presentation.ui.passwordlist.MainActivity"
+            android:name=".presentation.ui.passwordlist.PasswordListActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
