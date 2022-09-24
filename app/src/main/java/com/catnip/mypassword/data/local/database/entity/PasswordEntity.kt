@@ -14,7 +14,7 @@ Github : https://github.com/hermasyp
 @Entity(tableName = "passwords")
 data class PasswordEntity(
     @PrimaryKey(autoGenerate = true)
-    val id: Int = 0,
+    var id: Int = 0,
     @ColumnInfo(name = "app_name")
     var appName: String?,
     @ColumnInfo(name = "email")
